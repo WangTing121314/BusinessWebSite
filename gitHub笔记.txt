@@ -46,7 +46,7 @@ $  ssh -T git@github.com
 
 $ git config --global user.name "WangTing121314"
 "
-$ git config --global user.email "1655744037@qq.com"
+$ git config --global user.email "1655744037@qq.com"更新全部
 yourName是在github的用户名，下面是邮箱。分别输入上述命令行 回车
 
 
@@ -76,16 +76,30 @@ $ git remote add origin git@github.com:WangTing121314/BusinessWebSite.git
 然后在命令行输入一下命令
 
 $ git add --all
+
 $ git commit -m "first commit"
 
 2）上传到github 
-$ git push -u origin master
+
+$git push -u origin master
 git push命令会将本地仓库推送到远程服务器。
 
 git pull命令则相反。
 
 注：首次提交，先git pull下，修改完代码后，使用git status可以查看文件的差别，使用git add 添加要commit的文件。
 
+如果想添加某一个文件，则将后面的--all换成你要提交的文件名即可。
+然后还需要将增加的文件commit到仓库里去，执行命令git commit -m "注释语句"，$ git push -u origin master
 
-如果想添加某一个文件，则将后面的--all换成你要提交的文件名即可。$ git add gitHub笔记
-然后还需要将增加的文件commit到仓库里去，执行命令git commmit -m "gitHub笔记"，最后上传到github  $ git push -u origin master
+更新代码
+第一步：查看当前的git仓库状态，可以使用git status
+git status
+第二步：更新全部
+git add *
+第三步：接着输入git commit -m "更新说明"
+git commit -m "更新说明"
+第四步：先git pull,拉取当前分支最新代码
+git pull
+第五步：push到远程master分支上
+git push origin master
+不出意外，打开GitHub已经同步了
