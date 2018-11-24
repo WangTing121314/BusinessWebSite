@@ -1,20 +1,20 @@
-1.±¾µØ²Ö¿â½¨Á¢ÔÚE:\MyGitHubRepository\BusinessWebSiteÎÄ¼ş¼ĞÏÂ½øÈëBusinessWebSiteÎÄ¼ş¼Ğ Êó±êÓÒ¼ü²Ù×÷ÈçÏÂ²½Öè£º
+1.æœ¬åœ°ä»“åº“å»ºç«‹åœ¨E:\MyGitHubRepository\BusinessWebSiteæ–‡ä»¶å¤¹ä¸‹è¿›å…¥BusinessWebSiteæ–‡ä»¶å¤¹ é¼ æ ‡å³é”®æ“ä½œå¦‚ä¸‹æ­¥éª¤ï¼š
 $ git init
-Initialized empty Git repository in E:/MyGitHubRepository/BusinessWebSite/.git/ »á¶à³öÀ´Ò»¸ö.gitÎÄ¼ş¼Ğ£¬Õâ¾Í±íÊ¾±¾µØgit´´½¨³É¹¦¡£ windowsÏµÍ³¿ÉÄÜ¶Ô.gitÎÄ¼şÉèÖÃÁËÒş²Ø
-2.ÔÚ±¾µØ´´½¨ssh key
+Initialized empty Git repository in E:/MyGitHubRepository/BusinessWebSite/.git/ ä¼šå¤šå‡ºæ¥ä¸€ä¸ª.gitæ–‡ä»¶å¤¹ï¼Œè¿™å°±è¡¨ç¤ºæœ¬åœ°gitåˆ›å»ºæˆåŠŸã€‚ windowsç³»ç»Ÿå¯èƒ½å¯¹.gitæ–‡ä»¶è®¾ç½®äº†éšè—
+2.åœ¨æœ¬åœ°åˆ›å»ºssh key
 $ ssh-keygen -t rsa -C "your_email@youremail.com"
-ºóÃæµÄyour_email@youremail.com¸ÄÎªÄãµÄÓÊÏä¡£ÎÒµÄÓÊÏäÊÇlilu@1ke.co£¬Ò²ÊÇÔÚgithubÉÏ×¢²áµÄÄÇ¸öÓÊÏä
+åé¢çš„your_email@youremail.comæ”¹ä¸ºä½ çš„é‚®ç®±ã€‚æˆ‘çš„é‚®ç®±æ˜¯lilu@1ke.coï¼Œä¹Ÿæ˜¯åœ¨githubä¸Šæ³¨å†Œçš„é‚£ä¸ªé‚®ç®±
 
-Ö±½Óµã»Ø³µ£¬ËµÃ÷»áÔÚÄ¬ÈÏÎÄ¼şid_rsaÉÏÉú³Éssh key¡£ È»ºóÏµÍ³ÒªÇóÊäÈëÃÜÂë£¬Ö±½Ó°´»Ø³µ±íÊ¾²»ÉèÃÜÂë  Ö±½Ó»Ø³µ¡¢»Ø³µ¡¢»Ø³µ£¬²»ÉèÖÃÃÜÂë
+ç›´æ¥ç‚¹å›è½¦ï¼Œè¯´æ˜ä¼šåœ¨é»˜è®¤æ–‡ä»¶id_rsaä¸Šç”Ÿæˆssh keyã€‚ ç„¶åç³»ç»Ÿè¦æ±‚è¾“å…¥å¯†ç ï¼Œç›´æ¥æŒ‰å›è½¦è¡¨ç¤ºä¸è®¾å¯†ç   ç›´æ¥å›è½¦ã€å›è½¦ã€å›è½¦ï¼Œä¸è®¾ç½®å¯†ç 
 
-Ö®ºóÌáÊ¾Äãshh keyÒÑ¾­Éú³É³É¹¦¡£
+ä¹‹åæç¤ºä½ shh keyå·²ç»ç”ŸæˆæˆåŠŸã€‚
 Generating public/private rsa key pair.
-Enter file in which to save the key (/c/Users/ÑóÑó/.ssh/id_rsa):
-Created directory '/c/Users/ÑóÑó/.ssh'.
+Enter file in which to save the key (/c/Users/æ´‹æ´‹/.ssh/id_rsa):
+Created directory '/c/Users/æ´‹æ´‹/.ssh'.
 Enter passphrase (empty for no passphrase):
 Enter same passphrase again:
-Your identification has been saved in /c/Users/ÑóÑó/.ssh/id_rsa.
-Your public key has been saved in /c/Users/ÑóÑó/.ssh/id_rsa.pub.
+Your identification has been saved in /c/Users/æ´‹æ´‹/.ssh/id_rsa.
+Your public key has been saved in /c/Users/æ´‹æ´‹/.ssh/id_rsa.pub.
 The key fingerprint is:
 SHA256:sfJToBIxotdYHsfl4Po3BuN52d9RTrU8YcLicR+1P5M 1655744037@qq.com
 The key's randomart image is:
@@ -30,76 +30,111 @@ The key's randomart image is:
 |            . .  |
 +----[SHA256]-----+
 
-È»ºóÎÒÃÇ½øÈëÌáÊ¾µÄµØÖ·ÏÂ²é¿´ssh keyÎÄ¼ş¡£
+ç„¶åæˆ‘ä»¬è¿›å…¥æç¤ºçš„åœ°å€ä¸‹æŸ¥çœ‹ssh keyæ–‡ä»¶ã€‚
 
-3.´ò¿ªid_rsa.pub£¬¸´ÖÆÀïÃæµÄkey¡£ÀïÃæµÄkeyÊÇÒ»¶Ô¿´²»¶®µÄ×Ö·ûÊı×Ö×éºÏ£¬²»ÓÃ¹ÜËü£¬Ö±½Ó¸´ÖÆ¡£
-»Øµ½githubÍøÕ¾£¬½øÈëAccount Settings£¬×ó±ßÑ¡ÔñSSH Keys£¬Add SSH Key
+3.æ‰“å¼€id_rsa.pubï¼Œå¤åˆ¶é‡Œé¢çš„keyã€‚é‡Œé¢çš„keyæ˜¯ä¸€å¯¹çœ‹ä¸æ‡‚çš„å­—ç¬¦æ•°å­—ç»„åˆï¼Œä¸ç”¨ç®¡å®ƒï¼Œç›´æ¥å¤åˆ¶ã€‚
+å›åˆ°githubç½‘ç«™ï¼Œè¿›å…¥Account Settingsï¼Œå·¦è¾¹é€‰æ‹©SSH Keysï¼ŒAdd SSH Key
 
-4 ÑéÖ¤ÊÇ·ñ³É¹¦£¬ÔÚgit bashÏÂÊäÈë
+4 éªŒè¯æ˜¯å¦æˆåŠŸï¼Œåœ¨git bashä¸‹è¾“å…¥
 
 $  ssh -T git@github.com
 
-»Ø³µ¾Í»á¿´µ½£ºHi WangTing121314! You've successfully authenticated, but GitHub does not provide shell access.
-Õâ¾Í±íÊ¾ÒÑ³É¹¦Á¬ÉÏgithub¡£
+å›è½¦å°±ä¼šçœ‹åˆ°ï¼šHi WangTing121314! You've successfully authenticated, but GitHub does not provide shell access.
+è¿™å°±è¡¨ç¤ºå·²æˆåŠŸè¿ä¸Šgithubã€‚
 
-5.½ÓÏÂÀ´ÎÒÃÇÒª×öµÄ¾ÍÊÇ°Ñ±¾µØ²Ö¿â´«µ½githubÉÏÈ¥£¬ÔÚ´ËÖ®Ç°»¹ĞèÒªÉèÖÃusernameºÍemail£¬ÒòÎªgithubÃ¿´Îcommit¶¼»á¼ÇÂ¼ËûÃÇ
+5.æ¥ä¸‹æ¥æˆ‘ä»¬è¦åšçš„å°±æ˜¯æŠŠæœ¬åœ°ä»“åº“ä¼ åˆ°githubä¸Šå»ï¼Œåœ¨æ­¤ä¹‹å‰è¿˜éœ€è¦è®¾ç½®usernameå’Œemailï¼Œå› ä¸ºgithubæ¯æ¬¡commitéƒ½ä¼šè®°å½•ä»–ä»¬
 
 $ git config --global user.name "WangTing121314"
 "
-$ git config --global user.email "1655744037@qq.com"¸üĞÂÈ«²¿
-yourNameÊÇÔÚgithubµÄÓÃ»§Ãû£¬ÏÂÃæÊÇÓÊÏä¡£·Ö±ğÊäÈëÉÏÊöÃüÁîĞĞ »Ø³µ
+$ git config --global user.email "1655744037@qq.com"æ›´æ–°å…¨éƒ¨
+yourNameæ˜¯åœ¨githubçš„ç”¨æˆ·åï¼Œä¸‹é¢æ˜¯é‚®ç®±ã€‚åˆ†åˆ«è¾“å…¥ä¸Šè¿°å‘½ä»¤è¡Œ å›è½¦
 
 
-6£©½øÈëÒªÉÏ´«µÄ²Ö¿â£¬ÓÒ¼ügit bash£¬Ìí¼ÓÔ¶³ÌµØÖ·
+6ï¼‰è¿›å…¥è¦ä¸Šä¼ çš„ä»“åº“ï¼Œå³é”®git bashï¼Œæ·»åŠ è¿œç¨‹åœ°å€
 
 $ git remote add origin git@github.com:WangTing121314/BusinessWebSite.git
 
-ºóÃæµÄyourNameºÍyourRepo±íÊ¾ÄãÔÚgithubµÄÓÃ»§ÃûºÍ¸Õ²ÅĞÂ½¨µÄ²Ö¿â£¬¼ÓÍêÖ®ºó½øÈë.git£¬
-´ò¿ªconfig£¬ÕâÀï»á¶à³öÒ»¸öremote ¡°origin¡±ÄÚÈİ£¬Õâ¾ÍÊÇ¸Õ²ÅÌí¼ÓµÄÔ¶³ÌµØÖ·£¬Ò²¿ÉÒÔÖ±½ÓĞŞ¸ÄconfigÀ´ÅäÖÃÔ¶³ÌµØÖ·¡£
+åé¢çš„yourNameå’ŒyourRepoè¡¨ç¤ºä½ åœ¨githubçš„ç”¨æˆ·åå’Œåˆšæ‰æ–°å»ºçš„ä»“åº“ï¼ŒåŠ å®Œä¹‹åè¿›å…¥.gitï¼Œ
+æ‰“å¼€configï¼Œè¿™é‡Œä¼šå¤šå‡ºä¸€ä¸ªremote â€œoriginâ€å†…å®¹ï¼Œè¿™å°±æ˜¯åˆšæ‰æ·»åŠ çš„è¿œç¨‹åœ°å€ï¼Œä¹Ÿå¯ä»¥ç›´æ¥ä¿®æ”¹configæ¥é…ç½®è¿œç¨‹åœ°å€ã€‚
 [remote "origin"]
 	url = git@github.com:WangTing121314/BusinessWebSite.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
 
 
-7£©½Ó×ÅÊäÈëÃüÁî£ºgit pull --rebase origin master ½«githubÉÏ²Ö¿âµÄÎÄ¼şºÍ±¾µØÎÄ¼şÍ¬²½¡£ 
+7ï¼‰æ¥ç€è¾“å…¥å‘½ä»¤ï¼šgit pull --rebase origin master å°†githubä¸Šä»“åº“çš„æ–‡ä»¶å’Œæœ¬åœ°æ–‡ä»¶åŒæ­¥ã€‚ 
 
 
-Ìá½»ÉÏ´«
+æäº¤ä¸Šä¼ 
  
-ÊäÈëÃüÁî£ºgit add acm.cpp¿ÉÒÔÑ¡ÔñĞèÒªÉÏ´«µÄµ¥ÎÄ¼ş£¬»òÕßgit add -A£¬½«µ±Ç°Ä¿Â¼ÏÂµÄËùÓĞÎÄ¼şÉÏ´«¡£
-µÚÒ»²½Ö®ºó£¬git commit -m "XXX" ÉÏ´«ÎÄ¼ş£¬Ë«ÒıºÅÄÚÎªÎÄ¼şµÄÒ»Ğ©ÃèÊö£¬¶àÎÄ¼ş»áÍ³Ò»Ê¹ÓÃÕâ¸öÃèÊö¡£
-×îºó£¬ÊäÈëÃüÁî£ºgit push -u origin master¼´¿É½«ÎÄ¼ş½«ÎÄ¼şÍ¬²½µ½githubÉÏÁË¡£
+è¾“å…¥å‘½ä»¤ï¼šgit add acm.cppå¯ä»¥é€‰æ‹©éœ€è¦ä¸Šä¼ çš„å•æ–‡ä»¶ï¼Œæˆ–è€…git add -Aï¼Œå°†å½“å‰ç›®å½•ä¸‹çš„æ‰€æœ‰æ–‡ä»¶ä¸Šä¼ ã€‚
+ç¬¬ä¸€æ­¥ä¹‹åï¼Œgit commit -m "XXX" ä¸Šä¼ æ–‡ä»¶ï¼ŒåŒå¼•å·å†…ä¸ºæ–‡ä»¶çš„ä¸€äº›æè¿°ï¼Œå¤šæ–‡ä»¶ä¼šç»Ÿä¸€ä½¿ç”¨è¿™ä¸ªæè¿°ã€‚
+æœ€åï¼Œè¾“å…¥å‘½ä»¤ï¼šgit push -u origin masterå³å¯å°†æ–‡ä»¶å°†æ–‡ä»¶åŒæ­¥åˆ°githubä¸Šäº†ã€‚
 
 
-1£©½ÓÏÂÀ´ÔÚ±¾µØ²Ö¿âÀïÌí¼ÓÄãµÄ´úÂëÎÄ¼ş¼Ğ(ºÍ.gitÍ¬¼¶)
+1ï¼‰æ¥ä¸‹æ¥åœ¨æœ¬åœ°ä»“åº“é‡Œæ·»åŠ ä½ çš„ä»£ç æ–‡ä»¶å¤¹(å’Œ.gitåŒçº§)
 
-È»ºóÔÚÃüÁîĞĞÊäÈëÒ»ÏÂÃüÁî
+ç„¶ååœ¨å‘½ä»¤è¡Œè¾“å…¥ä¸€ä¸‹å‘½ä»¤
 
 $ git add --all
 
 $ git commit -m "first commit"
 
-2£©ÉÏ´«µ½github 
+2ï¼‰ä¸Šä¼ åˆ°github 
 
 $git push -u origin master
-git pushÃüÁî»á½«±¾µØ²Ö¿âÍÆËÍµ½Ô¶³Ì·şÎñÆ÷¡£
+git pushå‘½ä»¤ä¼šå°†æœ¬åœ°ä»“åº“æ¨é€åˆ°è¿œç¨‹æœåŠ¡å™¨ã€‚
 
-git pullÃüÁîÔòÏà·´¡£
+git pullå‘½ä»¤åˆ™ç›¸åã€‚
 
-×¢£ºÊ×´ÎÌá½»£¬ÏÈgit pullÏÂ£¬ĞŞ¸ÄÍê´úÂëºó£¬Ê¹ÓÃgit status¿ÉÒÔ²é¿´ÎÄ¼şµÄ²î±ğ£¬Ê¹ÓÃgit add Ìí¼ÓÒªcommitµÄÎÄ¼ş¡£
+æ³¨ï¼šé¦–æ¬¡æäº¤ï¼Œå…ˆgit pullä¸‹ï¼Œä¿®æ”¹å®Œä»£ç åï¼Œä½¿ç”¨git statuså¯ä»¥æŸ¥çœ‹æ–‡ä»¶çš„å·®åˆ«ï¼Œä½¿ç”¨git add æ·»åŠ è¦commitçš„æ–‡ä»¶ã€‚
 
-Èç¹ûÏëÌí¼ÓÄ³Ò»¸öÎÄ¼ş£¬Ôò½«ºóÃæµÄ--all»»³ÉÄãÒªÌá½»µÄÎÄ¼şÃû¼´¿É¡£
-È»ºó»¹ĞèÒª½«Ôö¼ÓµÄÎÄ¼şcommitµ½²Ö¿âÀïÈ¥£¬Ö´ĞĞÃüÁîgit commit -m "×¢ÊÍÓï¾ä"£¬$ git push -u origin master
+å¦‚æœæƒ³æ·»åŠ æŸä¸€ä¸ªæ–‡ä»¶ï¼Œåˆ™å°†åé¢çš„--allæ¢æˆä½ è¦æäº¤çš„æ–‡ä»¶åå³å¯ã€‚
+ç„¶åè¿˜éœ€è¦å°†å¢åŠ çš„æ–‡ä»¶commitåˆ°ä»“åº“é‡Œå»ï¼Œæ‰§è¡Œå‘½ä»¤git commit -m "æ³¨é‡Šè¯­å¥"ï¼Œ$ git push -u origin master
 
-¸üĞÂ´úÂë
-µÚÒ»²½£º²é¿´µ±Ç°µÄgit²Ö¿â×´Ì¬£¬¿ÉÒÔÊ¹ÓÃgit status
+æ›´æ–°ä»£ç 
+ç¬¬ä¸€æ­¥ï¼šæŸ¥çœ‹å½“å‰çš„gitä»“åº“çŠ¶æ€ï¼Œå¯ä»¥ä½¿ç”¨git status
 git status
-µÚ¶ş²½£º¸üĞÂÈ«²¿
+ç¬¬äºŒæ­¥ï¼šæ›´æ–°å…¨éƒ¨
 git add *
-µÚÈı²½£º½Ó×ÅÊäÈëgit commit -m "¸üĞÂËµÃ÷"
-git commit -m "¸üĞÂËµÃ÷"
-µÚËÄ²½£ºÏÈgit pull,À­È¡µ±Ç°·ÖÖ§×îĞÂ´úÂë
+ç¬¬ä¸‰æ­¥ï¼šæ¥ç€è¾“å…¥git commit -m "æ›´æ–°è¯´æ˜"
+git commit -m "æ›´æ–°è¯´æ˜"
+ç¬¬å››æ­¥ï¼šå…ˆgit pull,æ‹‰å–å½“å‰åˆ†æ”¯æœ€æ–°ä»£ç 
 git pull
-µÚÎå²½£ºpushµ½Ô¶³Ìmaster·ÖÖ§ÉÏ
+ç¬¬äº”æ­¥ï¼špushåˆ°è¿œç¨‹masteråˆ†æ”¯ä¸Š
 git push origin master
-²»³öÒâÍâ£¬´ò¿ªGitHubÒÑ¾­Í¬²½ÁË
+ä¸å‡ºæ„å¤–ï¼Œæ‰“å¼€GitHubå·²ç»åŒæ­¥äº†
+
+
+åˆ›å»ºvueé¡¹ç›®
+1.é€šè¿‡vue-cliè„šæ‰‹æ¶npm install -g vue-cli
+2.ä¸Šä¸€æ­¥å¾—ç›®å½•ä¸‹æ–°å»ºé¡¹ç›®ï¼ŒæŒ‡ä»¤vue init  webpack +é¡¹ç›®åç§°
+# å…¨å±€å®‰è£… vue-cli
+$ npm install --global vue-cli
+# åˆ›å»ºä¸€ä¸ªåŸºäº webpack æ¨¡æ¿çš„æ–°é¡¹ç›®
+$ vue init webpack my-project
+$ vue init webpack test   //è¾“å…¥å‘½ä»¤
+? Project name (test) test
+? Project name test
+? Project description (A Vue.js project) æµ‹è¯•é¡¹ç›®
+? Project description æµ‹è¯•é¡¹ç›®
+? Author lxx1024
+? Author lxx1024
+? Vue build standalone
+? Install vue-router? (Y/n) Y   //å®‰è£…è·¯ç”±
+? Install vue-router? Yes
+? Use ESLint to lint your code? (Y/n) n    //EslintéªŒè¯,å¾ˆä¸¥è°¨,æ‰€ä»¥é€‰æ‹©n
+? Use ESLint to lint your code? No
+? Setup unit tests with Karma + Mocha? (Y/n) Y
+? Setup unit tests with Karma + Mocha? Yes
+? Setup e2e tests with Nightwatch? (Y/n) Y
+? Setup e2e tests with Nightwatch? Yes
+  vue-cli Â· Generated "test".
+  To get started:
+   cd test
+   npm install
+   npm run dev
+  Documentation can be found at https://vuejs-templates.github.io/webpack
+# å®‰è£…ä¾èµ–ï¼Œèµ°ä½ 
+$ cd my-project
+$ npm install
+$ npm run dev  //è¿è¡Œé¡¹ç›®
